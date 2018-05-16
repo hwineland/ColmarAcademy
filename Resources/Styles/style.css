@@ -129,3 +129,46 @@ padding: 32px 24px;
 #highlight {
     background-color: #D3D3D3;
 }
+
+/*Courses*/
+.learning {
+  margin: 0 auto;
+  background-color: #D3D3D3;
+}
+
+.learning h2 {
+  text-align: center;
+  padding-top: 32px;
+}
+
+.courses {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  padding: 32px 72px;
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+  max-width: 27%;
+  overflow: hidden;
+  margin: 32px;
+  background-color: white;
+}
+
+.course img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.course .content {
+  padding: 16px;
+}
+
+.course p, h3 {
+  padding: 8px;
+}
